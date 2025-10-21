@@ -1,0 +1,360 @@
+#ppssppsharing
+
+** CWcheat Database อัพเดท!! **
+
+ฐานข้อมูลสูตรทั้งหมด :
+- 2,601 เกม
+- 80,147 โค้ดรายชื่อ
+- 246,033 โค้ดสูตร
+
+• มีอะไรเพิ่มเข้ามาใหม่บ้าง:
+- ลบสูตรที่ซ้ำกันออกตั้งแต่เวอร์ชั่น Original (คลีนไปได้ราวๆ 99%)
+- แก้ไขในบางเกมที่กดนำเข้าไฟล์สูตรแล้วแอพค้าง  และปิดการทำงานของสูตรที่ถูกเปิดใช้งานอยู่จากในฐานข้อมูลสูตรเวอร์ชั่นก่อนๆ ทั้งหมด
+- แก้ไขโค้ดสูตรในหลายๆ เกมที่ใช้งานไม่ได้ เนื่องจากโค้ดเกิน หรือตกหล่นใส่ไม่ครบแถว/บรรทัด
+- จัดเรียงหมวดหมู่ของสูตรแบ่งออกเป็น 5 หมวด ได้แก่ สูตรแก้ไขปัญหา, สูตรควบคุมเฟรมเรท, สูตรเพิ่มประสิทธิภาพ, สูตรช่วยในการควบคุม, สูตรทั่วไป เพื่อความสะดวกในการติ๊กใช้งาน
+- จัดสูตรให้เป็นหมวดหมู่ สำหรับในบางเกมที่มีสูตรเยอะ เพื่อความสะดวกในการใช้งาน
+
+• เพิ่มสูตรแก้ไขปัญหา+สูตรเพิ่มประสิทธิภาพ+สูตรช่วยในการควบคุม ในอีกหลายๆเกม ได้แก่
+- Activision Hits Remixed (ULES-00640) = แก้ไขปัญหากราฟิกด้วยการปิดเอฟเฟ็กต์ที่ทำให้เกมช้า รวมถึงเพิ่มสปีดในการบู้ตเกม
+- Armored Core 3 Portable (NPUH-10023) = แก้ไขปัญหาเกมค้าง
+- Armored Core: Last Raven Portable (NPUH-10024) = แก้ไขปัญหาเกมค้าง
+- Armored Core: Silent Line Portable (NPUH-10025) = แก้ไขปัญหาเกมค้าง
+- Assassin's Creed: Bloodlines (NPEH-00029,ULES-01367,ULUS-10455) = แก้ไขปัญหากดเซฟในเกมไม่ได้, แก้ไขปัญหาภาพมัว, แก้ปัญหาการเชื่อมต่อเพื่อโอนเซฟไปยัง PS3 ไม่ได้, เพิ่มการบังคับมุมกล้องด้วยการใช้ปุ่มอนาล็อคขวา
+- Auditorium (NPUH-10069) = แก้อาการจอดำ 
+- Battle Robot Damashii (NPJH-50720) = แก้ไขบั๊กที่เกิดจากรูปทรงเรขาคณิต (Fix Geometry)
+- Bleach: Soul Carnival (UCJS-10085) = แก้ไขปัญหาเกมค้าง
+- Bleach: Soul Carnival 2 (UCJS-10106],UCAS-40297) = แก้ไขปัญหาเกมค้าง
+- Blitz: Overtime (ULUS-10200) = เพิ่มสูตรแก้ไขปัญหาเฟรมเรท (Fix FPS)
+- Brian Lara 2007: Pressure Play (ULES-00814) = แก้ไขปัญหาเฟรมเรท (Fix FPS)
+- Burnout Legends (ULUS-10025) = เพิ่มรายละเอียดให้กับพื้นผิวรถ
+- Carnage Heart EXA (NPEH-00154) = ซ่อน UI บางอันที่แสดงผลผิดพลาด
+- Castlevania: The Dracula X Chronicles (ULES-00841) = แพทช์แก้ไขปัญหาความละเอียดของหน้าจอแสดงผล
+- Coded Arms (ULUS-10019) = ช่วยในการควบคุมด้วยปุ่มอนาล็อคขวา (Right Analog Aim)
+- Colin McRae Rally 2005 Plus (ULES-00111) = แก้ไขปัญหาแสงจ้าเป็นวง (Fix Lens Flare)
+- Crash Tag Team Racing (ULES-00168,ULES-00171,ULUS-10044)= แก้ไขอาการค้างในหน้าโหลดเซฟ
+- Digimon Adventure = แก้ภาพขึ้นเส้นขวางหน้าจอ
+- Dissidia 012 Duodecim Final Fantasy = แก้ไขปัญหาแสงจ้ารอบวัตถุ (Remove Bloom)
+- Driver 76 (ULES-00740,ULUS-10235) = แก้ไขปัญหาภาพแสดงผลผิดพลาด/ขึ้นเส้น, เพิ่มประสิทธิภาพเมื่อปรับใช้ Multithreaded, ลดอัตราการเรนเดอร์ภาพจากในระยะไกล, ช่วยให้เฟรมเรทวิ่งคงที่ 60 หรือ 30 FPS (เนื่องจาก Prevent FPS from exceeding 60 ทำงานได้ไม่เวิร์คพอ จึงต้องใช้สูตรช่วย ไม่งั้น FPS จะวิ่งเกิน 60+ ตลอดเวลา ซึ่งเป็นสาเหตุหนึ่งที่ทำให้เกมรันได้ช้า)
+- Earth Defense Forces 2 Portabl (ULJS-00374) = แก้ไขปัญหาแสงจ้ารอบวัตถุ (Remove Bloom)
+- Final Fantasy Tactics: The War of the Lions (ULES-00850) = แก้ไขอาการกระตุกอย่างรุนแรงในฉากต่อสู่, แพทช์ปรับความละเอียดภาพหน้าจอให้เป็นค่าดั้งเดิม
+- Final Fantasy Type 0 (NPJH-50443],NPJH-50444) = แก้ปัญหาฉากคัตซีนเบลอ (สำหรับตัวเกมญี่ปุ่นดั้งเดิมแบบแยกแผ่น)
+- Ford Bold Moves Street Racing (ULUS-10159) = แก้ไขปัญหาเอฟเฟ็คท์แสดงผลผิดพลาด (Remove glitchy effect)
+- Ford Racing: Off Road (ULUS-10326) = แก้ไขปัญหาเอฟเฟ็คท์แสดงผลผิดพลาด (Remove glitchy effect)
+- Ford Street Racing: L.A. Duel (ULES-00564) = แก้ไขปัญหาเอฟเฟ็คท์แสดงผลผิดพลาด (Remove glitchy effect)
+- Ford Street Racing: XR Edition (ULES-00588) = แก้ไขปัญหาเอฟเฟ็คท์แสดงผลผิดพลาด (Remove glitchy effect)
+- Ghost in the Shell: Stand Alone Complex (ULES-00135,ULUS-10020) = สูตรช่วยในการควบคุมด้วยปุ่มอนาล็อคขวา  (Right Analog Aim)
+- God Eater 2 (NPJH-50832) = แก้ไขปัญหาเกมเด้งในรอมเกม v1.40
+- God of War: Chains of Olympus (NPEG-00023,NPUG-80325,UCED-00971,UCES-00842,UCET-00844,UCUS-98653) = ช่วยให้เฟรมเรทภายในวิ่งคงที่ 60 หรือ 30 FPS (เนื่องจาก Prevent FPS from exceeding 60 ทำงานได้ไม่เวิร์คพอ จึงต้องใช้สูตรช่วย ไม่งั้น FPS จะวิ่งเกิน 60+ ตลอดเวลา ซึ่งเป็นสาเหตุหนึ่งที่ทำให้เกมรันได้ช้า) , แก้ภาพมืดเมื่อปรับใช้โหมด Skip buffer effects
+- God of War: Ghost of Sparta (NPEG-90035,UCES-01401) = ช่วยให้เฟรมเรทภายในวิ่งคงที่ 60 หรือ 30 FPS (เนื่องจาก Prevent FPS from exceeding 60 ทำงานได้ไม่เวิร์คพอ จึงต้องใช้สูตรช่วย ไม่งั้น FPS จะวิ่งเกิน 60+ ตลอดเวลา ซึ่งเป็นสาเหตุหนึ่งที่ทำให้เกมรันได้ช้า), แก้ภาพมืดเมื่อปรับใช้โหมด Skip buffer effects
+- Grand Theft Auto: Liberty City Stories (ULES-00151,ULES-00182,ULJM-05255,ULUS-10041) = สูตรแก้จอดำ เมื่อปรับใช้โหมด Skip buffer effects, เพิ่มการบังคับมุมกล้องด้วยการใช้ปุ่มอนาล็อคขวา
+- Grand Theft Auto: Vice City Stories (ULES-00502,ULUS-10160)= สูตรแก้จอดำ เมื่อปรับใช้โหมด Skip buffer effects, เพิ่มการบังคับมุมกล้องด้วยการใช้ปุ่มอนาล็อคขวา
+- Gran Turismo = แก้ปัญหาภาพสั่น
+- Gundam Assault Survive (ULJS-00281) = แก้ไขบั๊กที่เกิดจากรูปทรงเรขาคณิต (Fix Geometry)
+- Hokuto no Ken: Raoh Gaiden - Ten no Haoh (ULJM-05404) = แก้ไขอาการจอดำ อันเนื่องมาจากกราฟิก 2D ไม่แสดงผล
+- Imagine Champion Rider (ULES-01161,ULES-01273) = แก้ไขปัญหาเฟรมเรทดิ่งลงเหว  (Unlock FPS)
+- Initial D: Street Stage (ULJM-05093) = ช่วยในการควบคุมด้วยปุ่มอนาล็อค (Analog acceleration/break)
+- Juiced 2: Hot Import Nights (ULES-00928) = สูตรแก้ไขปัญหาเอฟเฟ็คท์ในบางจุดแสดงผลผิดพลาด
+- Kenka Bancho Badass Rumble (ULUS-10442) = ลบกำแพงบล็อคที่ดูไม่สมประกอบออก (Remove Ugly Barriers)
+- Kenka Bancho 4: Ichinen Sensou (ULJS-00268) = ลบกำแพงบล็อคที่ดูไม่สมประกอบออก (Remove Ugly Barriers)
+- Kingdom Hearts: BBS Final Mix (ULJM-05775) = ทำให้เสียงในฉากคัตซีนเป็นเสียงญี่ปุ่น
+- Kurohyou 2: Ryu ga Gotoku Ashura = สูตรวิ่งเร็ว (แก้บั๊กเต่าคลานในบทที่ 5)
+- LEGO Star Wars II: The Original Trilogy (ULES-00479,ULUS-10155) = แก้ไขปัญหาเมื่อเกมฟ้องว่ามีที่ว่างไม่เพียงพอ (Fix Insufficient Free Space)
+- Macross Triangle Frontier (ULJS-00321) = แก้ไขบั๊กที่เกิดจากรูปทรงเรขาคณิต (Fix Geometry)
+- Macross Ultimate Frontier (NPJH-50050) = แก้ไขบั๊กที่เกิดจากรูปทรงเรขาคณิต (Fix Geometry)
+- Manhunt 2 (ULES-00756,ULUS-10280) = เพิ่มสูตรแก้ไขปัญหาภาพเป็นเส้น/ลดอาการกระตุก (Restore Colors&Destroy Brightness)
+- Marvel Ultimate Alliance (ULES-00542,ULUS-10167) = เพิ่มการบังคับมุมกล้องด้วยการใช้ปุ่มอนาล็อคขวา
+- Me & My Katamari (ULUS-10094) = ลบเอฟเฟ็กต์ที่แสดงผลผิดพลาดออก
+- Mega Man Powered Up (ULES-00307) = ปรับแต่งการควบคุม (Movement Mods)
+- Metal Gear Solid - Peace Walker (ULES-01372,ULUS-10509) = แก้ไขปัญหาเวลามิลเลอร์ติดต่อวิทยุมาแล้วไม่มีเสียง (บังคับให้อีมูฯ อ่านไฟล์เสียงจากในรอมเกมโดยตรง), เปิดระบบการค้นหาผู้ร่วมทีม (Recruit discovery), ปลดล็อคชุดยูนิฟอร์มพิเศษ และสูตรช่วยในการควบคุมด้วยปุ่มอนาล็อค
+- Metal Gear Solid - Peace Walker Demo Ops (NPJH-00145) = แก้ปัญหาเกมเด้ง+ค้างเมื่อเริ่มบู้ตเกม
+- Midnight Club: L.A. Remix (ULES-01144,ULUS-10383) = ลดอัตราการเรนเดอร์ภาพจากในระยะไกล
+- Mighty Flip Champs DX (NPUZ-00238) = ปรับระดับเสียงให้ดังเต็มที่
+- Monster Hunter Freedom (ULES-00318,ULUS-10084) = แก้ไขปัญหาเซฟนอนเตียงไม่ได้ (Synchronize save)
+- Monster Hunter Freedom 2 (ULES-00851,ULUS-10266) = แก้ไชปัญหาเซฟนอนเตียงไม่ได้ (Synchronize save)
+- Monster Hunter Freedom Unite (ULES-01213,ULUS-10391) = แก้ไขปัญหาเซฟนอนเตียงไม่ได้ (Synchronize save)
+- Monster Hunter Portable 2nd G (ULJM-05500) = แก้ไขปัญหาเซฟนอนเตียงไม่ได้ (Synchronize save)
+- Monster Hunter Portable 3rd (ULJM-05800) = แก้ไขปัญหาเซฟนอนเตียงไม่ได้ (Synchronize save)
+- Monster Hunter Portable 3rd HD Ver. (NPJB-40001) = แก้ไขปัญหาเซฟนอนเตียงไม่ได้ (Synchronize save)
+- MotorStorm: Arctic Edge (NPUG-80265,UCES-01250,UCJS-10104,UCUS-98743) = แก้ไขปัญหาเสียงค้าง, ภาพสว่างจ้า, ปิดเอฟเฟ็กต์ไม่จำเป็นที่มาจาก Post Processing ซึ่งทำให้เกมรันได้ช้า ส่งผลให้ประมวลผลได้ไวขึ้นจากของเดิม 2 เท่า (Disable slower effects ทำงานได้ไม่เวิร์คพอปรับแล้วภาพเละกว่าเดิมจึงต้องใช้สูตรช่วย), แก้เงารถหาย (เฉพาะตัวเกมโซนอเมริกา)
+- MTX Mototrax (ULUS-10138) = เพิ่มสูตรแก้ไขปัญหาเกมเด้ง (JIT refresh)
+- N+ (ULUS-10340) = ปรับระดับเสียงให้ลดลงในระดับที่สามารถฟังได้
+- N.O.V.A. (NPEZ-00222,NPUZ-00179) = เพิ่มมุมมองในฉากให้กว้างยิ่งขึ้น, ปรับมุมกล้องในแนวตั้งให้แพนได้มากกว่าเดิม (ปกติเกมจะล็อคไว้ที่ 40 องศา สูตรนี้ช่วยปลดล็อคขยายไปที่ 75 องศา)
+- Naruto Shippuden: Ultimate Ninja Heroes 3 = แก้ปัญหาจอดำตอนเข้าเกมหลังจากจบไตเติ้ลโลโก้ (พึ่งจะมาเป็นในเวอร์ชั่น 1.4+)
+- Ore no Dungeon (ULJM-05167) = ซ่อนกราฟิกบางอันที่แสดงผลผิดพลาด
+- Outrun 2006: Coast 2 Coast (ULES-00262) = เพิ่มรายละเอียดพื้นผิวรถ, เพิ่มระยะการมองเห็นวัตถุได้ไกลขึ้น
+- Patapon = แก้ไขปัญหาเซฟในเกมไม่ได้
+- Patapon 2 = แก้ไขปัญหาเซฟในเกมไม่ได้
+- Patapon 3 (UCUS-98751) = แก้ไขปัญหาเซฟในเกมไม่ได้, แก้ไขปัญหาการเชื่อมต่อไม่ซิงค์กันในโหมดมัลติเพลเยอร์
+- Quake II = แก้อาการเกมตะกุกตะกัก
+- Ridge Racer (UCES-00002) = เพิ่มรายละเอียดพื้นผิวรถ, เพิ่มระยะการมองเห็นวัตถุได้ไกลขึ้น, เพิ่มระยะการมองเห็นในกระจกข้างรถ
+- Ridge Racer 2 (UCES-00442) = เพิ่มรายละเอียดพื้นผิวรถ, เพิ่มระยะการมองเห็นวัตถุได้ไกลขึ้น, เพิ่มระยะการมองเห็นในกระจกข้างรถ
+- Sakura Taisen 1&2 (ULJM-05109) = ลบเอฟเฟ็กต์บางตัวที่เขมือบแรมไปราวๆ 6 กิ๊ก
+- Samurai Shodown Anthology (ULUS-10401) = ลบตัวกรองภาพขยายออกจาก SSVI (Remove Magnification Filter Glitching SSVI)
+- San Goku Shi IX with Power-Up Kit (ULJM-05842) = แก้ไขปัญหาฉากพื้นหลังเป็นสีดำ
+- Sega Rally Revo (ULUS-10311) = เพิ่มรายละเอียดพื้นผิวรถ, เพิ่มระยะการมองเห็นวัตถุได้ไกลขึ้น
+- Senjou no Valkyria 3 (ULJM-05781) = แก้ไขปัญหาภาพมัว (Level of Detail multiplier)
+- Senjou no Valkyria 3: Extra Edition (ULJM-05957,ULJM-05781) = แก้ไขปัญหาท้องฟ้ากลายเป็นสีดำ, แก้ไขปัญหาภาพมัว (Level of Detail Multiplier)
+- Shadow of Destiny (ULUS-10459) = แก้ไขปัญหาท้องฟ้าดำ เมื่อปรับใช้โหมดรูปแบบการสนับสนุนกราฟิกเป็น D3D11 (Skybox fix)
+- Sonic Rivals (ULES-00622) = แก้ไขปัญหากราฟิกด้วยการปิดเอฟเฟ็กต์ที่ทำให้เกมช้าออกเพื่อเพิ่มความเร็ว
+- Sonic Rivals 2 (ULES-00940) = แก้ไขปัญหากราฟิกด้วยการปิดเอฟเฟ็กต์ที่ทำให้เกมช้าออกเพื่อเพิ่มความเร็ว
+- Spider-Man: Friend or Foe (ULUS-10318) = แก้ไขปัญหาเซฟไม่ได้ 
+- Star Wars: The Force Unleashed (ULES-00981,ULES-00982,ULUS-10345) = แก้อาการภาพซ้อนเป็นแถบแดง
+- Street Fighter Alpha 3 MAX (ULES-00235,ULUS-10062) = แก้ไขปัญหาเมื่อเกมฟ้องว่ามีที่ว่างไม่เพียงพอ
+- Tales of Eternia (ULES-00176) = ลบเกจแสดงค่าแบตเตอรี่ออก
+- Test Drive Unlimited (ULES-00637,ULET-00386,ULUS-10249) = ปิดเอฟเฟ็กต์ไม่จำเป็นที่มาจากกระบวนการ Post Processing ซึ่งทำให้เกมรันได้ช้า ส่งผลให้ประมวลผลได้ไวขึ้นจากของเดิม 5 เท่า 
+- Tekken: Dark Resurrection = แก้ปัญหาภาพสั่น
+- Tekken 6 (NPJH-50184,ULES-01376,ULUS-10466) = แก้จอดำเมื่อปรับใช้ค่าความถี่ซีพียู
+- The Sims 2: Castaway (ULES-00945,ULUS-10296) = แก้ไขปัญหาเกมค้าง (Kill Infinite Loops)
+- Toca Race Driver 3 (ULED-90009,ULES-00615) = แก้ไขปัญหาภาพแสดงผลผิดพลาด (โดยรวมก็พอใช้ได้ แต่ยังไม่สมบูรณ์)
+- Tokyo Mono Harashi: Karasu no Mori Gakuen Kitan (NPJH-50215) = แก้ไขปัญหาเฟรมเรท (Improve Framerate)
+- Tomb Raider Anniversary (ULES-00826,ULUS-10253) = เพิ่มการบังคับมุมกล้องด้วยการใช้ปุ่มอนาล็อคขวา
+- Tomb Raider: Legends (ULES-00283,ULUS-10110) = เพิ่มการบังคับมุมกล้องด้วยการใช้ปุ่มอนาล็อคขวา
+- Tony Haws's Underground 2 Remix (ULES-00033,ULES-00034,ULES-00035,ULUS-10014) = แก้ไขปัญหาเมื่อเกมฟ้องว่ามีที่ว่างไม่เพียงพอ
+- Valkyria Chronicles II (ULUS-10515) = แก้ไขปัญหาท้องฟ้ากลายเป็นสีดำ, แก้ไขปัญหาภาพมัว (Level of Detail Multiplier)
+- Valkyrie Profile: Lenneth (ULUS-10107) = แก้ไขปัญหาเกมค้างในฉากคัตซีนเครดิต
+- Virtua Tennis: World Tour (ULES-00126,ULUS-10037) = แก้ไขปัญหาเมื่อเกมฟ้องว่ามีที่ว่างไม่เพียงพอ
+- Zettai Zetsumei Toshi 3 (ULJS-00191) = แก้ไขปัญหาอาการติดแหง่กในหน้าต่างเลือกตัวละคร
+
+• เพิ่มสูตรบังคับเฟรมเรท (20/30/40/45/60/60+ FPS) ในอีกหลายๆเกม ได้แก่
+- 7th Dragon 2020 (โซน JPN) [สูตรขั้น Alpha]
+- Ace Combat X: Skies of Deception (โซน USA) [สูตรขั้น Beta]
+- Ape Escape On The Loose (โซน USA)
+- Ape Quest (โซน USA)
+- Archer Maclean's Mercury (โซน EUR)
+- Assassin's Creed: Bloodlines (โซน EUR/USA)
+- Avatar - The Last Airbender (โซน USA)
+- Black Rock Shooter (โซน USA) [สูตรขั้น Beta]
+- Bleach: Soul Carnival 2 (โซน JPN) [ขั้น Alpha]
+- Burnout Dominator (โซน EUR/USA) [สูตรขั้น Beta]
+- Burnout Legend (โซน USA) [สูตรขั้น Beta]
+- Castlevania: The Dracula X Chronicles (โซน EUR)
+- Chili Con Carnage (โซน EUR/USA)
+- Coded Arms (โซน EUR/USA)
+- Crazy Taxi: Double Punch (โซน JPN)
+- Crazy Taxi: Fare Wars (โซน EUR/USA)
+- Crisis Core: Final Fantasy VII (โซน USA)
+- Dangan Ronpa (เโซน JPN)
+- Dante's Inferno (โซน EUR/USA)
+- Dead to Rights: Reckoning (เโซน USA)
+- Death Jr. (โซน EUR/USA)
+- Death Jr. II: Root of Evil (โซน EUR/USA)
+- Digimon Adventures (โซน JPN)
+- Digimon World ReDigitize (โซน JPN)
+- Dissidia: Final Fantasy (โซน USA/EUR-Multi5/USA-Demo/JPN)
+- Dissidia 012 Final Fantasy (โซน EUR/USA/AS) [สูตรขั้น Beta]
+- Dissidia 012 Prologus: Duodecim Final Fantasy DEMO (โซน USA) [สูตรขั้น Beta]
+- Driver 76 (โซน USA/EUR)
+- DTM Race Driver 2 (โซน EUR)
+- DTM Race Driver 3 Challenge (โซน EUR)
+- Dungeon Siege: Throne Of Agony (โซน EUR)
+- Eiyuu Densetsu: Ao no Kiseki (โซน JPN) [สูตรขั้น Beta]
+- Eiyuu Densetsu: Zero no Kiseki (โซน JPN) [สูตรขั้น Beta]
+- Fate Extra: CCC (โซน JPN) [สูตรขั้น Alpha]
+- Fate Unlimited Codes (โซน USA)
+- FIFA 14 (โซน EUR)
+- FIFA Street 2 (โซน USA) [สูตรขั้น Beta]
+- Fight Night Round 3 (โซน USA) [สูตรขั้น Beta]
+- Fina Fantasy VII Crisis Core (โซน EUR/USA/SPA)
+- Final Fantasy Type 0 (โซน JPN) [สูตรขั้น Beta]
+- FlatOut: Head On (โซน EUR/USA)
+- flOw (โซน USA)
+- Ford Bold Moves Street Racing (โซน USA)
+- Frontier Gate Boost+ (โซน JPN) [เฉพาะตัวเกมเวอร์ชั่น 1.01]
+- Gangs of London (โซน EUR)
+- Ghost in the Shell Stand Alone Complex (โซน USA)
+- Gitaroo Man Lives! (โซน USA) [สูตรขั้น Beta]
+- Gladiator Begins (โซน USA)
+- God Eater 2 (โซน JPN)
+- Gods Eater Burst (โซน USA)
+- Gran Turismo (โซน USA)
+- - Grand Theft Auto: Chinatown Wars (โซน USA)
+- Grand Theft Auto: Liberty City Stories (โซน EUR/USA/USAv1)
+- Grand Theft Auto: Vice City Stories (โซน EUR) [สูตรขั้น Beta]
+- Gravity Crash Portable (โซน USA)
+- GripShift (โซน EUR/USA) [สูตรขั้น Beta]
+- GTI Club Supermini Festa! (โซน USA)
+- GUN Showdown (โซน EUR + USA)
+- Gurumin: A Monstrous Adventure (โซน USA)
+- Harvest Moon: Boy & Girl (โซน USA) [ขั้น Alpha]
+- Hatsune Miku: Project Diva (โซน JPN)
+- Hatsune Miku: Project Diva 2nd (โซน JPN)
+- Hatsune Miku: Project Diva 2nd# (โซน JPN)
+- Hatsune Miku: Project Diva Extend (โซน JPN)
+- Hunter x Hunter Wonder Adventures (โซน JPN) [สูตรขั้น Beta]
+- Initial D: Street Stage (โซน JPN)
+- Jeanne d'Arc (โซน USA)
+- K-On! Houkago Live!! HD Ver. (โซน JPN) [ขั้น Alpha]
+- Kao Challengers (โซน EUR/USA)
+- Kidou Senshi Gundam AGE: Cosmic Drive (โซน JPN) [ขั้น Beta]
+- Kidou Senshi Gundam AGE: Universe Accel (โซน JPN) [สูตรขั้น Beta]
+- Kingdom Hearts: Birth By Sleep (โซน EUR/USA/JPN)
+- Kingdom Hearts: Birth By Sleep Final Mix (โซน JPN)
+- Last Ranker (โซน JPN) [ขั้น ALPHA]
+- LittleBigPlanet (โซน EUR แต่โซน USA เฉพาะตัวเกม DEMO)
+- Lord of Apocalypse (โซน JPN)
+- Lord of Arcana (โซน EUR/USA)
+- Manhunt 2 (โซน EUR + USA)
+- Mana Khemia Student Aliance (โซน USA)
+- Marvel Nemesis: Rise of the Imperfects (โซน EUR)
+- Marvel Ultimate Alliance (โซน EUR/USA)
+- Marvel Ultimate Alliance 2 (โซน EUR/USA)
+- Medal of Honor Heroes (โซน USA)
+- Medal of Honor Heroes 2 (โซน USA)
+- Metal Gear Solid: Peace Walker (โซน EUR/USA) [สูตรขั้น Beta]
+- Metal Gear Solid OPS (โซน EUR) [สูตรขั้น Beta]
+- Metal Gear Solid OPS Plus (โซน USA) [สูตรขั้น Beta]
+- Midnight Club L.A. Remix (โซน EUR/USA)
+- Modnation Racers (โซน EUR/USA)
+- Monster Hunter Portable 2nd G (โซน JPN)
+- Monster Hunter Portable 3rd (โซน JPN) [สูตรขั้น Beta]
+- Monster Hunter Portable 3rd HD Ver. (โซน JPN) [สูตรขั้น Beta]
+- Monster Hunter Freedom Unite (โซน USA สูตรขั้น Alpha) (โซน EUR สูตรขั้น Beta)
+- Motorstorm: Arctic Edge (โซน EUR/USA/JAP)
+- N.O.V.A. (โซน EUR/USA)
+- Naruto Shippuden: Ultimate Ninja Impact (โซน USA สูตรขั้น Beta) (โซน EUR สูตรขั้น Alpha)
+- Nayuta no Kiseki (โซน JPN)
+- NBA Street Showdown (โซน USA)
+- Need For Speed: Carbon Own the City (โซน EUR)
+- Need For Speed: Most Wanted (โซน EUR)
+- Need For Speed: Pro Street (โซน EUR)
+- Need For Speed: Undercover (โซน EUR)
+- Need For Speed: Underground Rivals (โซน EUR/USA)
+- Obscure: The Aftermath (โซน EUR/USA)
+- OneeChanbara Special (โซน JPN)
+- Pac-Man World 3 (โซน EUR/USA)
+- Pac-Man World Rally (โซน EUR/USA)
+- Patapon 3 (โซน EUR/USA/JAP)
+- Phantasy Star Portable (โซน USA)
+- Phantasy Star Portable 2 (โซน USA)
+- Phantasy Star Portable 2: Infinity (โซน JPN)
+- PhotoKano (โซน JPN สูตรขั้น beta)
+- Pro Evolution Soccer 2014 (โซน USA/EUR) [ขั้น Alpha]
+- Pursuit Force (โซน EUR/USA)
+- Pursuit Force Daitsuiseki (โซน JPN)
+- Pursuit Force: Extreme Justice (โซน EUR/USA)
+- Ratatouille (โซน EUR/USA/SPA)
+- Rengoku (โซน USA)
+- Rengoku 2 (โซน USA)
+- Resistance: Retribution (โซน USA)
+- Saint Seiya Omega Ultimate Cosmo (โซน JPN) [ขั้น Alpha]
+- Saru Get You: Piposaru Racer (โซน JPN)
+- Sega Rally (โซน EUR/JPN)
+- Sega Rally Revo (โซน USA)
+- Shinobido (โซน EUR)
+- Shinobido Homura (โซน JPN)
+- Snoopy vs the Red Baron (โซน USA)
+- Sonic Rivals (โซน EUR/USA)
+- Sonic Rivals 2 (โซน EUR)
+- Spider-Man 2 (โซน EUR/USA/JPN)
+- SpinOut (โซน EUR)
+- Split/Second (โซน USA)
+- Split/Second: Velocity (โซน EUR)
+- Splinter Cell Essentials (โซน EUR/USA)
+- Star Wars: Battlefront - Elite Squadron (โซน EUR/USA)
+- Star Wars: Battlefront - Renegade Squadron (โซน USA)
+- Star Wars: Battlefront II (โซน EUR)
+- Star Wars: The Force Unleashed (โซน EUR/USA)
+- Super Dangan Ronpa 2 (โซน JPN)
+- Summon Night 5 (โซน USA) [สูตรขั้น Alpha]
+- Sword Art Online (โซน JPN) [สูตรขั้น Beta]
+- Syphon Filter: Dark Mirror (โซน EUR/USA)
+- Syphon Filter: Logan's Shadow (โซน EUR/USA)
+- Tales of the Heroes: Twin Brave (โซน JPN) [สูตรขั้น Alpha]
+- Tantei Opera Milky Holmes (โซน JPN)
+- Tantei Opera Milky Holmes 2 (โซน JPN)
+- Tekken 5 Dark Resurection (โซน USA)
+- Tekken 6 (โซน USA)
+- Tenchu Shadow Assassins (โซน USA)
+- Test Drive Unlimited (โซน EUR/USA)
+- The 3rd Birthday (โซน EUR) [สูตรขั้น Beta]
+- The Godfather: Mob Wars/El Padrino (โซน EUR/USA)
+- The Idolm@ster Shiny Festa: Funky Note (โซน JPN) [สูตรขั้น Beta]
+- The Idolm@ster Shiny Festa: Groovy Tone (โซน JPN) [สูตรขั้น Beta]
+- The Idolm@ster Shiny Festa: Honey Sound (โซน JPN) [สูตรขั้น Beta]
+- The Simpsons Game (โซน EUR/USA)
+- The Warriors (โซน EUR/USA)
+- Time Travelers (โซน JPN)
+- ToCA/DTM Race Driver 2 / V8 Supercars Australia 2 (โซน USA/EUR)
+- ToCA/DTM Race Driver 3 Challenge (โซน EUR/Demo)
+- Tom Clancy's Splinter Cell Essentials (โซน USA/EUR)
+- Tony Hawk's Project 8 (โซน EUR/USA)
+- Tony Hawk's Underground 2: Remix (โซน EUR/USA)
+- Toukiden Kiwami (โซน JPN) [เฉพาะตัวเกมเวอร์ชั่น 1.05 ขึ้นไป]
+- Toy Story 3 (โซน EUR/USA) [สูตรขั้น Beta]
+- Twisted Metal: Head-On (โซน USA)
+- Ultimate Ghosts 'n Goblins (โซน EUR/USA/JPN)
+- Valhalla Knights 2: Battle Stance (โซน USA)
+- Valkyria Chronicles II (โซน USA)
+- Valkyria Chronicles 3: Extra Edition (โซน JPN)
+- Warriors Orochi (โซน EUR/USA)
+- Warriors Orochi 2 (โซน EUR/USA)
+- White Knight Chronicles: Origins (โซน EUR)
+- WipEout Pulse (โซน EUR/USA)
+- Wipeout Pure (โซน EUR สูตรขั้น Beta/USA)
+- WWE SmackDown! vs. RAW 2010 featuring ECW (โซน EUR/USA)
+- WWE SmackDown! vs. RAW 2011 (โซน EUR/USA)
+- X-Men Legends 2 (โซน EUR/USA)
+- Ys Ark of Napishtim (โซน USA)
+- Ys Seven (โซน USA) [สูตรขั้น Beta]
+- Yu-Gi-Oh! Arc-V Tag Force Special (โซน JPN) [สูตรขั้น Alpha]
+
+• เพิ่มสูตรทั่วไปใหม่ทั้งหมด ในอีกหลายๆเกม ได้แก่
+- 1,000 Tiny Claws (NPEZ-00401,NPUZ-00262)
+- 2D Adventures of Rotating Octopus Character (NPEZ-00363,NPUZ-00240)
+- 3D Twist and Match (NPEZ-00318,NPUZ-00176)
+- 7th Dragon 2020-II (NPJH-50716)
+- A Space Shooter For 2 Bucks! (NPUZ-00190,NPEZ-00322)
+- Ace Armstrong vs. The Alien Scumbags (NPEZ-00218,NPUZ-00109)
+- Ace Combat X: Skies of Deception (ULJS-19018,ULJS-00086)
+- Aero Racer (NPEZ-00043,NPUZ-00023)
+- Alien Zombie Death (NPEZ-00115,NPUZ-00069)
+- Ao no Exorcist: Genkoku no Labyrinth (NPJH-50489)
+- Apache Overkill (NPEZ-00184,NPUZ-00098)
+- Aquattack (NPUZ-00182)
+- Arcade Essentials (NPUZ-00116)
+- Arcade Essentials Evolution (NPUZ-00258)
+- Archibald's Adventures (NPEZ-00203,NPUZ-00115)
+- Activision Hits Remixed (ULES-00640)
+- Arctic Adventures: Polar's Puzzles (NPEZ-00219,NPUZ-00114)
+- Army of Two: The 40th Day (ULES-01381)
+- Atelier Of El Krone ~Dear for Otomate~ (UCJM-06045)
+- B-Gen (HBB9035E49)
+- Bashi Blocks (NPUZ-00123)
+- Battle Robot Damashii (NPJH-50720)
+- Bejewled 2 (NPUG-30038)
+- Ben 10: Protector of Earth (ULES-00906)
+- Ben 
+# CWCheat-Database-Plus-
+Cheat Database for PPSSPP/PSP
+ฐานข้อมูลสูตร สำหรับอีมูเลเตอร์ PPSSPP และเครื่อง PSP
+
+# Download. (เวอร์ชั่นล่าสุดอยู่เสมอ)
+
+<a href="https://github.com/Saramagrean/CWCheat-Database-Plus-/archive/master.zip">Click Here... </a>
+
+<a href="https://ibb.co/2ZzpVMn"><img src="https://i.ibb.co/mNnPZyD/CWCheat-0.jpg" alt="CWCheat-0" border="0"></a>
+
+========================================================================
+
+# Original Thread. (เว็บฐานข้อมูลสูตรต้นฉบับ)
+https://forums.ppsspp.org/showthread.php?tid=11961
+
+# Special Thanks. (ขอบคุณเป็นพิเศษ)
+
+<a href="https://forums.ppsspp.org/forumdisplay.php?fid=31"> PPSSPP Forum (CWCheat codes) </a>
+
+<a href="https://gamehacking.org/system/psp/all"> GameHacking </a> (รวมสูตรเกม PSP)
+
+<a href="https://github.com/LunaMoo/PPSSPP_workarounds"> LunaMoo </a> (รวมสูตรแก้ไขปัญหา/เพิ่มประสิทธิภาพ/ช่วยควบคุม)
+
+<a href="http://forums.ppsspp.org/showthread.php?tid=22787"> Kabuto_Kun </a> (รวมสูตรแก้ไขปัญหา/เพิ่มประสิทธิภาพ/ช่วยควบคุม)
+
+<a href="https://github.com/TAbdiukov/PPSSPP-patches"> TAbdiukov </a> (รวมสูตรเพิ่มประสิทธิภาพ/ช่วยควบคุม)
+
+<a href="http://forums.ppsspp.org/showthread.php?tid=22800"> 60 FPS Patch </a> (รวมสูตร 60 FPS)
+
+<a href="https://forums.ppsspp.org/showthread.php?tid=26189"> Widescreen Patches </a> (รวมสูตรปรับภาพเต็มจอสำหรับหน้าจอกว้าง)
+
+<a href="[https://forums.ppsspp.org/forumdisplay.php?fid=31](https://raing3.gshi.org/psp-utilities/#!/code-archive/)"> Raing3 Code Archive </a> (โค้ดต้นฉบับจากที่นี่ใช้ไม่ได้ ต้องแปลงกลับมาเป็น CWCheat อีกที) :
+
+...และตามเว็บรวมโค้ดสูตรเกม PSP อื่นๆ ที่ไม่ได้กล่าวถึง :)
